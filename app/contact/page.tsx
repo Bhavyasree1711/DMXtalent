@@ -59,19 +59,19 @@ export default function ContactPage() {
           <div className="mb-4">
             <h5 className="fw-semibold">Office Address</h5>
             <p className="text-muted">
-              DMX Tech Services Pvt. Ltd.<br />
+              DMX Talent Solutions Pvt. Ltd.<br />
               Bangalore, India
             </p>
           </div>
 
           <div className="mb-4">
             <h5 className="fw-semibold">Email</h5>
-            <p className="text-muted">contact@dmxtech.com</p>
+            <p className="text-muted">info@dmxtechservices.com</p>
           </div>
 
           <div className="mb-4">
             <h5 className="fw-semibold">Phone</h5>
-            <p className="text-muted">+91 98765 43210</p>
+            <p className="text-muted">+91 6364512292</p>
           </div>
 
           {/* 🗺️ Map */}

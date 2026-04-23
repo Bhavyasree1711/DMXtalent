@@ -9,7 +9,7 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link href="/" className="navbar-brand d-flex align-items-center gap-2">
-          <img src="/logo.png" height="70" />
+          <img src="/logo.png" height="110" />
           <span className="fw-bold fs-4">DMX Talent Solutions</span>
         </Link>
 
@@ -19,6 +19,10 @@ export default function Navbar() {
             
              <li className="nav-item">
               <Link href="/" className="nav-link">Home</Link>
+            </li>
+
+            <li className="nav-item">
+              <Link href="/about" className="nav-link">About</Link>
             </li>
 
             <li className="nav-item">
@@ -33,9 +37,7 @@ export default function Navbar() {
               <Link href="/insights" className="nav-link">Insights</Link>
             </li>
 
-            <li className="nav-item">
-              <Link href="/about" className="nav-link">About</Link>
-            </li>
+            
 
             <li className="nav-item">
               <Link href="/careers" className="nav-link">Careers</Link>
